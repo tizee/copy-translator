@@ -24,7 +24,7 @@ impl Req {
 #[derive(Deserialize, Debug)]
 struct Resp {
     code: i32,
-    result: String,
+    data: String,
 }
 
 pub async fn translate_async(
